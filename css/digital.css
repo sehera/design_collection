@@ -1,0 +1,189 @@
+body{
+  /* background-color: #F1ECD7; */
+  background-color: #E1DDCC;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+
+@media (min-width: 600px) {
+
+iframe {
+  width: 1000px;
+  height: 900px;
+  cursor:cell;
+}
+
+.web1 {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  border-style: none;
+}
+
+.note1{
+  position: absolute;
+  margin-top:10%;
+  left:50%;
+  width: 45%;
+  height: 45%;
+}
+
+/* .note1:hover{
+  content: url('https://res.cloudinary.com/daa5ehdxc/image/upload/v1588823364/final%20website/Untitled_Artwork_30_oo6fx5.png');
+  position: relative;
+  margin-top:45px;
+  width: 50%;
+  height:50%;
+} */
+
+
+
+.web2 {
+  position: absolute;
+  display: block;
+  left: 10%;
+  top: 100%;
+  border-style: none;
+}
+
+
+
+.note2{
+  position: absolute;
+  margin-top:80%;
+  left:55%;
+  width: 45%;
+  height: 45%;
+}
+
+
+.web3 {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 200%;
+  border-style: none;
+}
+
+.note3{
+  position: absolute;
+  margin-top:130%;
+  left:50%;
+  width: 45%;
+  height: 45%;
+}
+
+.web4 {
+  position: absolute;
+  display: block;
+  left: 10%;
+  top: 300%;
+  border-style: none;
+}
+
+.note4{
+  position: absolute;
+  margin-top:190%;
+  left:54%;
+  width: 45%;
+  height: 45%;
+}
+
+
+}
+
+
+
+/* MOBILE VERSION */
+
+@media (max-width: 600px) {
+  iframe {
+    width: 400px;
+    height: 300px;
+    border-style: none;
+  }
+
+
+  .web1 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    border-style: none;
+  }
+
+  .note1{
+    position: absolute;
+    margin-top:10%;
+    left:50%;
+    width: 40%;
+    height: 25%;
+  }
+
+
+  .web2 {
+    position: absolute;
+    display: block;
+    left: 10%;
+    top: 50%;
+    border-style: none;
+  }
+
+
+
+  .note2{
+    position: absolute;
+    margin-top:70%;
+    left:57%;
+    width: 40%;
+    height: 25%;
+  }
+
+
+  .web3 {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 100%;
+    border-style: none;
+  }
+
+  .note3{
+    position: absolute;
+    margin-top:120%;
+    left:50%;
+    width: 40%;
+    height: 25%;
+  }
+
+  .web4 {
+    position: absolute;
+    display: block;
+    left: 10%;
+    top: 150%;
+    border-style: none;
+  }
+
+  .note4{
+    position: absolute;
+    margin-top:180%;
+    left:58%;
+    width: 40%;
+    height: 25%;
+  }
+
+
+
+
+}

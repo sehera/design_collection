@@ -1,0 +1,294 @@
+body{
+background-color: black;
+}
+
+
+
+@media (min-width: 600px) {
+
+  body {
+    background-color: black;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    height: 100%;
+    margin: 0;
+  }
+
+  @keyframes fadeInAnimation {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+       }
+  }
+
+  /* overlay */
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .6s ease;
+    background-color: #F0EBDF;
+  }
+  /* overlay */
+
+
+.container1 {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+}
+
+.image1 {
+  width: 100%;
+  height: auto;
+}
+
+
+.container1:hover .overlay {
+  opacity: 70%;
+}
+
+.body1 {
+  color: black;
+  font-size:40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Allerta Stencil", Sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
+
+.note1{
+  position: relative;
+  width: 100%;
+}
+
+.note1:hover{
+  content: url('https://res.cloudinary.com/daa5ehdxc/image/upload/v1588729534/final%20website/Untitled_Artwork_10_cofazw.png');
+  position: relative;
+  width: 100%;
+}
+
+
+
+/* CONTAINER 2 */
+
+
+
+.container2 {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+}
+
+.image2 {
+  width: 100%;
+  height: auto;
+}
+
+
+.container2:hover .overlay {
+  opacity: 70%;
+}
+
+.body2 {
+  color: black;
+  font-size:40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Allerta Stencil", Sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
+
+.note2{
+  position: relative;
+  width: 100%;
+}
+
+.note2:hover{
+  content: url('https://res.cloudinary.com/daa5ehdxc/image/upload/v1588728923/final%20website/Untitled_Artwork_9_koeoaj.png');
+  position: relative;
+  width: 100%;
+}
+
+/* CONTAINER 3 */
+
+
+
+.container3 {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+}
+
+.image3 {
+  width: 100%;
+  height: auto;
+}
+
+
+.container3:hover .overlay {
+  opacity: 70%;
+}
+
+.body3 {
+  color: black;
+  font-size:40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Allerta Stencil", Sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
+
+.note3{
+  position: relative;
+  width: 100%;
+}
+
+.note3:hover{
+  content: url('https://res.cloudinary.com/daa5ehdxc/image/upload/v1588739770/final%20website/Untitled_Artwork_17_efpzjm.png');
+  position: relative;
+  width: 100%;
+}
+
+/* CONTAINER 4 */
+
+
+
+.container4 {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+}
+
+.image4 {
+  width: 100%;
+  height: auto;
+}
+
+
+.container4:hover .overlay {
+  opacity: 70%;
+}
+
+.body4 {
+  color: black;
+  font-size:40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Allerta Stencil", Sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
+
+.note4{
+  position: relative;
+  width: 100%;
+}
+
+.note4:hover{
+  content: url('https://res.cloudinary.com/daa5ehdxc/image/upload/v1588730845/final%20website/Untitled_Artwork_14_lftlcy.png');
+  position: relative;
+  width: 100%;
+}
+
+/* CONTAINER 5 */
+
+
+.container5 {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+}
+
+.image5 {
+  width: 100%;
+  height: auto;
+}
+
+
+.container5:hover .overlay {
+  opacity: 70%;
+}
+
+.body5 {
+  color: black;
+  font-size:40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Allerta Stencil", Sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
+
+.note5{
+  position: relative;
+  width: 100%;
+}
+
+.note5:hover{
+  content: url('https://res.cloudinary.com/daa5ehdxc/image/upload/v1588739666/final%20website/Untitled_Artwork_16_ldz0uq.png');
+  position: relative;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+}

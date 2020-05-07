@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/writing.css">
+    <title> writing </title>
+  </head>
+  <body>
+
+    <h2> A few pieces. </h2>
+
+    <div class="text1">
+      <div id="draggable1">
+      <a href="writings/books.html"> B &nbsp; Books </a>
+    </div>
+  </div>
+
+  <div class="text2">
+    <div id="draggable2">
+    <a href="writings/bluets.html"> Bluets </a>
+  </div>
+</div>
+
+
+      <div class="text3">
+        <div id="draggable3">
+        <a href="writings/cafe.html"> C &nbsp; Cafés </a>
+      </div>
+    </div>
+
+
+
+<a href="index.html">
+  <img src="https://res.cloudinary.com/daa5ehdxc/image/upload/v1588885586/final%20website/Untitled_Artwork_69_pmq9j0.png"
+  style= "width:30%;height:10%; position:absolute; left:90%; top: 90%;" </img>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <button id="backgcolor"> <h4 style="color:wheat;text-align:center;" > <b> brighter? <b> </h4>  </button> -->
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/code.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+    <script>
+    function myMove() {
+    var elem = document.getElementById("animate");
+    var pos = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (pos == 350) {
+        clearInterval(id);
+      } else {
+        pos++;
+        elem.style.top = pos + "px";
+        elem.style.left = pos + "px";
+      }
+    }
+    }
+    </script>
+
+
+
+  </body>
+</html>

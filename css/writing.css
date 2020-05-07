@@ -1,0 +1,80 @@
+body{
+  /* background-color: #F1ECD7; */
+  background-color: white;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+a{
+  text-decoration: none;
+  color:#EABA87;
+  font-weight: normal;
+  letter-spacing: 0.08em;
+}
+
+a:visited{
+  text-decoration: none;
+  color:#EABA87;
+}
+
+
+h2{
+  font-size: 30px;
+  font-family:  Helvetica, sans-serif;
+  position: absolute;
+  left:32%;
+  top:20%;
+  color:#EABA87;
+  font-weight: normal;
+  letter-spacing: 0.08em;
+}
+
+.text1{
+  font-size: 50px;
+  font-family:  Helvetica, sans-serif;
+  position: absolute;
+  left:45%;
+  top:30%;
+  font-weight: normal;
+}
+
+#draggable1 {
+  padding: 0.5em;
+}
+
+.text2{
+  font-size: 50px;
+  font-family:  Helvetica, sans-serif;
+  position: absolute;
+  left:51.3%;
+  top:42%;
+}
+
+#draggable2 {
+  padding: 0.5em;
+  z-index: 2;
+}
+
+
+.text3{
+  font-size: 50px;
+  font-family:  Helvetica, sans-serif;
+  position: absolute;
+  left: 45%;
+  top:58%;
+}
+
+#draggable3 {
+  padding: 0.5em;
+  z-index: 2;
+}

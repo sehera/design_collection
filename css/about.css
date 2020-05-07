@@ -1,0 +1,44 @@
+body{
+  background-color: #F1ECD7;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.about{
+  position: relative;
+  width:50%;
+  height:100%;
+  position: absolute;
+  left: 25%;
+  top:20%;
+}
+
+p{
+  text-indent: 5%;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+body{
+text-align: justify;
+font-size: 19px;
+font-family:  Helvetica, sans-serif;
+line-height: 1.25em;
+font-style: normal;
+font-weight: 600;
+color: #AE95C4;
+}

@@ -1,0 +1,75 @@
+body{
+  background-color: #F1ECD7;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.index{
+  font-family: "Allerta Stencil", Sans-serif;
+  font-size: 100px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  padding-left: 10%;
+  padding-top:5%;
+  line-height: 10rem;
+}
+
+a{
+  text-decoration: none;
+  /* color: #F1ECD7; */
+  color: #AE95C4;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+#a:hover + #a-bg {
+    background-image: url('https://res.cloudinary.com/daa5ehdxc/image/upload/v1588882655/final%20website/Screenshot_2020-05-07_at_4.17.14_pm_voaej1.png');
+}
+
+#b:hover + #b-bg {
+    background-image: url('https://res.cloudinary.com/daa5ehdxc/image/upload/v1588792738/final%20website/Screenshot_2020-05-06_at_3.18.44_pm_lv5umo.png');
+}
+
+#c:hover + #c-bg {
+    background-image: url('https://res.cloudinary.com/daa5ehdxc/image/upload/v1588873477/final%20website/Screenshot_2020-05-07_at_1.44.23_pm_x7udzx.png');
+}
+
+#d:hover + #d-bg {
+    background-image: url('https://res.cloudinary.com/daa5ehdxc/image/upload/v1588874166/final%20website/Screenshot_2020-05-07_at_1.55.45_pm_gjzdgu.png');
+}
+.background{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -99;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h3{
+  font-family: "Helvetica", Sans-serif;
+  font-size: 20px;
+  position:absolute;
+  top:83%;
+  left:93%;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  padding-top:5%;
+  color: #AE95C4;
+}
